@@ -8,7 +8,7 @@ def load_library(file_path)
     binding.pry
     emoticons[:get_meaning] = {}
     emoticons[:get_emoticon] = {}
-    
+
     get_meaning[emoticon_list[1]] = meaning
     get_emoticon[emoticon_list[0]] = emoticon_list[1]
   end
