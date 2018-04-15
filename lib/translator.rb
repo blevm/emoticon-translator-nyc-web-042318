@@ -10,6 +10,7 @@ def load_library(file_path)
     emoticons_hash["get_emoticon"] = {}
     emoticons_hash["get_meaning"][emoticon_list[1]] = meaning
     emoticons_hash["get_emoticon"][emoticon_list[0]] = emoticon_list[1]
+    binding.pry
   end
   emoticons_hash
 end
