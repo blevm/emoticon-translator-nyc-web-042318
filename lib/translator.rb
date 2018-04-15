@@ -12,7 +12,9 @@ def load_library(file_path)
   emoticons_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(yaml_file,emoticon)
+  library = load_library(yaml_file)
+  library["get_emoticon"][emoticon]
   # code goes here
 end
 
