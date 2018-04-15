@@ -11,7 +11,7 @@ def load_library(file_path)
     emoticons_hash[:get_emoticon] = {}
     binding.pry
     emoticons_hash[:get_meaning][emoticon_list[1]] = meaning
-    emoticons_hash[:get_meaning][emoticon_list[0]] = emoticon_list[1]
+    emoticons_hash[:get_emoticon][emoticon_list[0]] = emoticon_list[1]
     binding.pry
   end
   emoticons
