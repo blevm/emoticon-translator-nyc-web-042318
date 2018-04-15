@@ -21,5 +21,9 @@ end
 def get_english_meaning(yaml_file,emoticon)
   # code goes here
   library = load_library(yaml_file)
-  library["get_meaning"][emoticon]
+  if  library["get_meaning"][emoticon]
+    library["get_meaning"][emoticon]
+  else
+    "Sorry, that emoticon was not found"
+  end
 end
