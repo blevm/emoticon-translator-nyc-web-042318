@@ -20,4 +20,6 @@ end
 
 def get_english_meaning
   # code goes here
+  library = load_library(yaml_file)
+  library["get_meaning"][emoticon]
 end
